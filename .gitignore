@@ -1,0 +1,21 @@
+**/node_modules/
+
+backend/dist/
+backend/.env*
+!backend/.env.example
+
+# Variables del despliegue en VPS
+.env.prod
+/.env
+/.env.*
+!/.env.prod.example
+
+# Caché de compilación incremental de TypeScript
+*.tsbuildinfo
+
+frontend/dist/
+frontend/.env*
+!frontend/.env.example
+
+# Preferencias del editor: son de cada equipo, no del proyecto
+.vscode/
